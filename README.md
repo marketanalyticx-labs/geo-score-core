@@ -58,7 +58,7 @@ result = scorer.score_html(html_string, url="https://example.com")
 
 ## Try it without installing anything
 
-Hosted demo (Hugging Face Space): **[huggingface.co/spaces/marketanalyticx/geo-score](https://huggingface.co/spaces/marketanalyticx/geo-score)**
+Hosted demo (Hugging Face Space): **[huggingface.co/spaces/Market-Analyticx/geo-score](https://huggingface.co/spaces/Market-Analyticx/geo-score)**
 
 ## Why we built this
 
