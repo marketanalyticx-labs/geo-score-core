@@ -1,6 +1,6 @@
 # geo-score-core
 
-**Score any web page for AI-search readiness — the same 7-factor engine behind [marketanalyticx.com/geo-lens](https://marketanalyticx.com/geo-lens/), open-sourced.**
+**Score any web page for AI-search readiness — the same 7-factor engine behind [marketanalyticx.com/tools/geo-lens](https://marketanalyticx.com/tools/geo-lens/), open-sourced.**
 
 As more discovery moves from ten blue links to a single AI-generated answer (ChatGPT, Perplexity, Google AI Overviews), pages need to be structured for *extraction*, not just ranking. `geo-score-core` gives you a repeatable, open scoring model for that — no API key, no black box.
 
@@ -35,7 +35,7 @@ Answer extractability     15.0 / 20.0  (75.0%)
 | Technical directives | 10 | Meta robots, canonical tags, AI-bot friendliness signals |
 | Freshness signals | 8 | `datePublished` / `dateModified`, recency |
 
-Full breakdown and rationale for the weighting: [marketanalyticx.com/geo-lens](https://marketanalyticx.com/geo-lens/).
+Full breakdown and rationale for the weighting: [marketanalyticx.com/tools/geo-lens](https://marketanalyticx.com/tools/geo-lens/).
 
 ## Usage as a library
 

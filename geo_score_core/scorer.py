@@ -1,6 +1,6 @@
 """The GEOScorer: 7-factor GEO/AEO readiness scoring for a single page.
 
-Factor weights mirror the live marketanalyticx.com/geo-lens tool:
+Factor weights mirror the live marketanalyticx.com/tools/geo-lens tool:
   Schema markup            20
   Answer extractability    20
   Heading architecture     15
