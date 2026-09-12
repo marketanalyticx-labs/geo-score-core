@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geo-score-core"
+version = "0.1.0"
+description = "Score any web page for AI-search / GEO (Generative Engine Optimization) readiness — the 7-factor engine behind marketanalyticx.com/geo-lens"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Market Analyticx", email = "hello@marketanalyticx.com" }
+]
+keywords = ["geo", "aeo", "seo", "llm-seo", "ai-search", "generative-engine-optimization", "chatgpt-seo"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+]
+
+[project.urls]
+Homepage = "https://marketanalyticx.com/geo-lens/"
+Repository = "https://github.com/marketanalyticx/geo-score-core"
+"Hosted Demo" = "https://huggingface.co/spaces/marketanalyticx/geo-score"
+
+[project.scripts]
+geo-score = "geo_score_core.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["geo_score_core*"]
