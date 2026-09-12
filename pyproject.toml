@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "geo-score-core"
-version = "0.1.3"
+version = "0.1.4"
 description = "Score any web page for AI-search / GEO (Generative Engine Optimization) readiness — the 7-factor engine behind marketanalyticx.com/tools/geo-lens"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -29,7 +29,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://marketanalyticx.com/tools/geo-lens/"
 Repository = "https://github.com/marketanalyticx-labs/geo-score-core"
-"Hosted Demo" = "https://huggingface.co/spaces/Market-Analyticx/geo-score"
+"Hosted Demo" = "https://geo-score-demo.onrender.com/"
 
 [project.scripts]
 geo-score = "geo_score_core.cli:main"
